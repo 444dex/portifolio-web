@@ -1,14 +1,14 @@
-# 📚 Portfólio Web - Trabalho Escolar
+# Portfólio Web
 
 > ⚠️ **IMPORTANTE:** Este é um **projeto acadêmico** desenvolvido como trabalho de Desenvolvimento Web no Ensino Médio. O conteúdo aqui apresentado é **meramente demonstrativo** e serve apenas para avaliar habilidades técnicas de criação de sites. **Não deve ser considerado como portfólio profissional real**.
 
 ---
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 Este repositório contém um **site portfólio fictício** criado como atividade avaliativa da disciplina de **Desenvolvimento Web** do Ensino Médio. 
 
-### 🎯 Objetivo Pedagógico
+### Objetivo Pedagógico
 
 Demonstrar conhecimentos adquiridos em:
 - Estruturação de páginas HTML
@@ -18,16 +18,14 @@ Demonstrar conhecimentos adquiridos em:
 - Formulários e validação de dados
 - Design responsivo básico
 
-### ⚠️ Avisos Importantes
-
-- 📌 **Conteúdo fictício**: Os projetos e informações apresentados no site são apenas para fins didáticos
+### Avisos Importantes
 - 📌 **Não profissional**: Este site **NÃO** representa um portfólio profissional real
 - 📌 **Fins avaliativos**: Foi desenvolvido exclusivamente para avaliação escolar
 - 📌 **Aprendizado**: O foco está na técnica de desenvolvimento, não no conteúdo
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Tecnologia | Uso no Projeto |
 |------------|----------------|
@@ -39,7 +37,7 @@ Demonstrar conhecimentos adquiridos em:
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 portifolio-web/
@@ -62,7 +60,7 @@ portifolio-web/
 
 ---
 
-## 🚀 Como Executar (Para Fins de Avaliação)
+## Como Executar
 
 ### Pré-requisitos
 - XAMPP, WAMP ou LAMP instalado
@@ -117,16 +115,16 @@ http://localhost/portifolio-web/
 
 ---
 
-## 📄 Funcionalidades Desenvolvidas
+## Funcionalidades Desenvolvidas
 
-### ✅ Páginas Implementadas
+### Páginas Implementadas
 - [x] Página inicial (index.html)
-- [x] Seção "Sobre" (fictícia)
-- [x] Seção "Projetos" (demonstrativos)
+- [x] Seção "Sobre"
+- [x] Seção "Projetos"
 - [x] Formulário de contato funcional
 - [x] Painel admin para visualizar mensagens
 
-### ✅ Recursos Técnicos
+### Recursos Técnicos
 - [x] Layout responsivo básico
 - [x] Formulário com validação PHP
 - [x] Integração PHP + MySQL
@@ -135,7 +133,7 @@ http://localhost/portifolio-web/
 
 ---
 
-## 🎓 Conceitos de Programação Aplicados
+## Conceitos de Programação Aplicados
 
 Este trabalho escolar demonstra conhecimento em:
 
@@ -165,25 +163,19 @@ Este trabalho escolar demonstra conhecimento em:
 
 ---
 
-## 📸 Capturas de Tela
+## Critérios de Avaliação Atendidos
 
-> **Nota:** Como este é um trabalho escolar demonstrativo, as imagens e conteúdo são apenas para ilustrar o layout e funcionalidades técnicas.
-
----
-
-## 🎯 Critérios de Avaliação Atendidos
-
-- ✅ Site funcional com múltiplas páginas
-- ✅ Uso correto de HTML semântico
-- ✅ Estilização com CSS
-- ✅ Formulário funcional com PHP
-- ✅ Integração com banco de dados
-- ✅ Código organizado e comentado
-- ✅ Layout responsivo básico
+- Site funcional com múltiplas páginas
+- Uso correto de HTML semântico
+- Estilização com CSS
+- Formulário funcional com PHP
+- Integração com banco de dados
+- Código organizado e comentado
+- Layout responsivo básico
 
 ---
 
-## 📝 Notas de Desenvolvimento
+## Notas de Desenvolvimento
 
 ### Decisões Técnicas
 - Optei por PHP puro ao invés de frameworks para demonstrar conhecimento fundamental
@@ -197,31 +189,11 @@ Este trabalho escolar demonstra conhecimento em:
 - Organização de código em arquivos separados
 - Boas práticas de segurança básica (validação)
 
-### Limitações Conhecidas
-⚠️ Este é um projeto **didático/acadêmico**, portanto:
-- Não possui autenticação real no admin
-- Validações de segurança são básicas
-- Não há proteção contra SQL Injection avançada
-- O código prioriza clareza sobre otimização
-
 ---
 
-## ⚠️ Disclaimer
+## Possíveis Melhorias (Futuras)
 
-**ESTE NÃO É UM PORTFÓLIO PROFISSIONAL REAL**
-
-- Os "projetos" mostrados no site são fictícios/demonstrativos
-- As informações pessoais podem ser genéricas/falsas
-- O objetivo é **demonstrar habilidades técnicas de desenvolvimento web**
-- Foi criado **exclusivamente para fins educacionais/avaliativos**
-
-Para o meu **portfólio profissional real** (se aplicável), visite: [link do portfólio real]
-
----
-
-## 🔧 Possíveis Melhorias (Futuras)
-
-Se eu fosse continuar desenvolvendo este projeto academicamente:
+Se eu fosse continuar desenvolvendo este projeto:
 
 - [ ] Adicionar sistema de login/autenticação
 - [ ] Implementar proteção CSRF
@@ -234,7 +206,7 @@ Se eu fosse continuar desenvolvendo este projeto academicamente:
 
 ---
 
-## 📚 Referências de Estudo
+## Referências de Estudo
 
 Recursos utilizados para desenvolver este trabalho:
 - [MDN Web Docs](https://developer.mozilla.org/) - HTML, CSS, JavaScript
@@ -244,26 +216,27 @@ Recursos utilizados para desenvolver este trabalho:
 
 ---
 
-## 👨‍🎓 Informações Acadêmicas
+## Informações Acadêmicas
 
 - **Disciplina:** Desenvolvimento Web
 - **Nível:** Ensino Médio
 - **Objetivo:** Trabalho avaliativo de programação web
-- **Autor:** 444dex
+- **Autor:** Miguel Erick Assunção Kuipers
 - **GitHub:** [@444dex](https://github.com/444dex)
 
 ---
 
-## 📄 Licença
+## Licença
 
 Este projeto é de uso educacional. O código pode ser utilizado como referência para estudos.
 
 ---
 
 <p align="center">
-  <strong>📚 Projeto desenvolvido como atividade escolar de Desenvolvimento Web 📚</strong>
+  <strong>Projeto desenvolvido como atividade escolar de Desenvolvimento Web</strong>
 </p>
 
 <p align="center">
   <sub>O conteúdo deste site é meramente demonstrativo e não reflete um portfólio profissional real</sub>
+
 </p>

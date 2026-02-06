@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="scanlines"></div>
+
+    <header>
+        <div class="xbox-logo">
+            <div class="logo-text">MK Portfolio</div>
+        </div>
+        <button class="menu-toggle" onclick="toggleMenu()">MENU</button>
+        <nav class="nav-menu" id="navMenu">
+            <button class="nav-btn active" onclick="showPage('home')">HOME</button>
+            <button class="nav-btn" onclick="showPage('linguagens')">LINGUAGENS</button>
+            <button class="nav-btn" onclick="showPage('matematica')">MATEMÁTICA</button>
+            <button class="nav-btn" onclick="showPage('humanas')">HUMANAS</button>
+            <button class="nav-btn" onclick="showPage('natureza')">NATUREZA</button>
+            <button class="nav-btn" onclick="showPage('conhecimentos')">CONHECIMENTOS</button>
+            <button class="nav-btn" onclick="showPage('experiencias')">EXPERIÊNCIAS</button>
+            <button class="nav-btn" onclick="showPage('ciberseguranca')">CYBER</button>
+            <button class="nav-btn" onclick="showPage('blockchain')">BLOCKCHAIN</button>
+            <button class="nav-btn" onclick="showPage('automacao')">ROBÓTICA</button>
+            <button class="nav-btn" onclick="showPage('edge')">EDGE</button>
+            <button class="nav-btn" onclick="showPage('habilidades')">SKILLS</button>
+            <button class="nav-btn" onclick="showPage('projetos')">PROJETOS</button>
+            <button class="nav-btn" onclick="showPage('contato')">CONTATO</button>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- HOME -->
+        <div id="home" class="page active">
+            <div class="dashboard-panel">
+                <h2 class="section-title">Bem-vindo ao meu portfólio</h2>
+                <div class="intro-grid">
+                    <div>
+                        <div class="photo-box" id="photoBox">
+                            <img src="imagens/1754837855773.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <input type="file" id="photoInput" accept="image/*" style="display: none;">
+                    </div>
+                    <div class="intro-text">
+                        <h1>Miguel Erick Assunção Kuipers</h1>
+                        <h2>Estudante de T.I. | Ensino Médio</h2>
+                        <p>Olá! Sou estudante do 3º ano do Ensino Médio no SENAC com foco em Tecnologia da Informação. Durante esses três anos, desenvolvi diversos projetos e adquiri conhecimentos em programação, redes, segurança digital e tecnologias emergentes.</p>
+                        <p>Sou um jovem de 18 anos, motivado e cheio de energia, à procura de uma oportunidade para iniciar minha jornada profissional. Apesar da minha idade, sou responsável, dedicado e sempre disposto a aprender. Tenho grande interesse em adquirir novas habilidades e contribuir positivamente para o ambiente de trabalho. Busco uma oportunidade que me permita crescer tanto pessoal quanto profissionalmente, principalmente atuando na área em que curso meu ensino técnico, mas estou aberto a diferentes áreas. Sou organizado, gosto de trabalhar em equipe e estou sempre à procura de desafios que me permitam desenvolver e evoluir.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LINGUAGENS -->
+        <div id="linguagens" class="page">
+            <div class="dashboard-panel">
+                <h2 class="section-title">Linguagens e Códigos</h2>
+                <div class="topic-icon">📚</div>
+                
+                <div class="content-section">
+                    <h3>◄ Trabalhos do 1º Ano ►</h3>
+                    <p>Durante o primeiro ano, explorei a relação entre linguagem e tecnologia, desenvolvendo projetos que envolviam análise de discursos digitais e a evolução da comunicação na era da internet.</p>
+                    
+                    <h3>◄ Trabalhos do 2º Ano ►</h3>
+                    <p>No segundo ano, aprofundei meus conhecimentos em linguagens de programação como ferramentas de expressão e criação, desenvolvendo análises sobre a semiótica dos interfaces digitais e a linguagem visual no design de sistemas.</p>
+                    
+                    <h3>◄ Trabalhos do 3º Ano ►</h3>
+                    <p>No terceiro ano, integrei conhecimentos linguísticos com projetos práticos de T.I., criando documentações técnicas, apresentações sobre algoritmos e análises críticas sobre o impacto social das tecnologias da informação.</p>
+                </div>
+
+                <div class="grid-container">
+                    <div class="xbox-card">
+                        <div class="card-icon">📰</div>
+                        <h3>Revista</h3>
+                        <p>Atividade integrada do terceiro bimestre que reúne as atividades produzidas nas disciplinas de Linguagens em uma revista.</p>
+                        <div class="tag-container">
+                            <span class="tag">Produção textual</span>
+                            <span class="tag">Design gráfico</span>
+                        </div>
+                    </div>
+                    <div class="xbox-card">
+                        <div class="card-icon">⚡</div>
+                        <h3>Simulador Circuitos</h3>
+                        <p>Aplicação web para simulação de circuitos elétricos básicos.</p>
+                        <div class="tag-container">
+                            <span class="tag">Física</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONHECIMENTOS -->
+        <div id="conhecimentos" class="page">
+            <div class="dashboard-panel">
+                <h2 class="section-title">Conhecimentos Técnicos</h2>
+                <div class="topic-icon">🎓</div>
+                
+                <p style="text-align: center; margin-bottom: 2rem; color: var(--xbox-highlight); text-transform: uppercase; font-weight: 700;">
+                    ► Habilidades e Competências Adquiridas ◄
+                </p>
+
+                <div class="grid-container">
+                    <div class="xbox-card">
+                        <div class="card-icon">💼</div>
+                        <h3>Pacote Office</h3>
+                        <p>Conhecimentos avançados em Microsoft Office, incluindo Word para documentação profissional, PowerPoint para apresentações impactantes e Excel para análise de dados e criação de planilhas complexas.</p>
+                        <div class="tag-container">
+                            <span class="tag">Word</span>
+                            <span class="tag">PowerPoint</span>
+                            <span class="tag">Excel</span>
+                            <span class="tag">Avançado</span>
+                        </div>
+                    </div>
+
+                    <div class="xbox-card">
+                        <div class="card-icon">🔧</div>
+                        <h3>Suporte e Manutenção</h3>
+                        <p>Conhecimentos em suporte técnico e manutenção de computadores, incluindo diagnóstico de problemas, instalação de sistemas operacionais, configuração de hardware e resolução de problemas técnicos.</p>
+                        <div class="tag-container">
+                            <span class="tag">Hardware</span>
+                            <span class="tag">Software</span>
+                            <span class="tag">Suporte</span>
+                        </div>
+                    </div>
+
+                    <div class="xbox-card">
+                        <div class="card-icon">💻</div>
+                        <h3>Programação</h3>
+                        <p>Conhecimento básico de programação em Python e HTML, utilizando Visual Studio Code como ambiente de desenvolvimento. Capacidade de criar scripts simples e páginas web básicas.</p>
+                        <div class="tag-container">
+                            <span class="tag">Python</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">VS Code</span>
+                        </div>
+                    </div>
+
+                    <div class="xbox-card">
+                        <div class="card-icon">🌐</div>
+                        <h3>Web Design</h3>
+                        <p>Conhecimento de Web Design utilizando WordPress, incluindo criação e personalização de sites, gestão de conteúdo, instalação de temas e plugins, e otimização para SEO.</p>
+                        <div class="tag-container">
+                            <span class="tag">WordPress</span>
+                            <span class="tag">CMS</span>
+                            <span class="tag">Web Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- EXPERIÊNCIAS -->
+        <div id="experiencias" class="page">
+            <div class="dashboard-panel">
+                <h2 class="section-title">Experiências Profissionais</h2>
+                <div class="topic-icon">⭐</div>
+                
+                <p style="text-align: center; margin-bottom: 2rem; color: var(--xbox-highlight); text-transform: uppercase; font-weight: 700;">
+                    ► Experiências e Trabalhos Realizados ◄
+                </p>
+
+                <div class="grid-container">
+                    <div class="xbox-card">
+                        <div class="card-icon">🎬</div>
+                        <h3>Edição de Vídeos</h3>
+                        <p>Atua como Freelancer iniciante na área de edição de vídeos. Experiência em edição profissional utilizando Adobe Premiere, incluindo cortes, transições, efeitos visuais, correção de cor e sincronização de áudio.</p>
+                        <div class="tag-container">
+                            <span class="tag">Adobe Premiere</span>
+                            <span class="tag">Edição</span>
+                            <span class="tag">Freelancer</span>
+                        </div>
+                    </div>
+
+                    <div class="xbox-card">
+                        <div class="card-icon">🖼️</div>
+                        <h3>Edição de Fotos</h3>
+                        <p>Experiência em edição e manipulação de fotos utilizando Adobe Photoshop. Capacidade de realizar retoques, montagens, ajustes de cor, remoção de imperfeições e criação de composições visuais impactantes.</p>
+                        <div class="tag-container">
+                            <span class="tag">Adobe Photoshop</span>
+                            <span class="tag">Retoque</span>
+                            <span class="tag">Manipulação</span>
+                        </div>
+                    </div>
+
+                    <div class="xbox-card">
+                        <div class="card-icon">🎨</div>
+                        <h3>Design Digital</h3>
+                        <p>Experiência em design digital utilizando Adobe Illustrator. Criação de logotipos, ilustrações vetoriais, design de identidade visual, materiais gráficos para mídias digitais e impressas.</p>
+                        <div class="tag-container">
+                            <span class="tag">Adobe Illustrator</span>
+                            <span class="tag">Vetorial</span>
+                            <span class="tag">Branding</span>
+                        </div>
+                    </div>
+
+                    <div class="xbox-card">
+                        <div class="card-icon">🎮</div>
+                        <h3>Modelagem 3D</h3>
+                        <p>Experiência em modelagem 3D utilizando Blender. Capacidade de criar objetos tridimensionais, personagens, cenários, aplicar texturas, iluminação e realizar renderizações de alta qualidade.</p>
+                        <div class="tag-container">
+                            <span class="tag">Blender</span>
+                            <span class="tag">3D Modeling</span>
+                            <span class="tag">Rendering</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cs" class="page">
+            <div class="dashboard-panel">
+                <h2 class="section-title">Cibersegurança</h2>
+                <div class="topic-icon">🛡️</div>
+                
+                <div class="content-section">
+                    <p>A cibersegurança é fundamental no mundo digital atual. Durante meus estudos, explorei diversos aspectos da segurança da informação, desde conceitos básicos até técnicas avançadas de proteção.</p>
+
+                    <h3>◄ Fundamentos de Segurança ►</h3>
+                    <p>Estudei os pilares da segurança da informação: confidencialidade, integridade e disponibilidade (CIA Triad). Aprendi sobre diferentes tipos de ameaças cibernéticas como malware, phishing, ransomware e ataques DDoS.</p>
+
+                    <h3>◄ Criptografia ►</h3>
+                    <p>Desenvolvi conhecimentos em algoritmos de criptografia simétrica e assimétrica, protocolos de segurança como SSL/TLS, e práticas de hash para proteção de senhas.</p>
+
+                    <h3>◄ Segurança de Redes ►</h3>
+                    <p>Aprendi sobre firewalls, VPNs, sistemas de detecção de intrusão (IDS) e práticas de hardening de sistemas operacionais.</p>
+                </div>
+
+                <div class="grid-container">
+                    <div class="xbox-card">
+                        <div class="card-icon">🔐</div>
+                        <h3>Sistema Cripto</h3>
+                        <p>Implementação de algoritmos de criptografia para proteção de mensagens.</p>
+                        <div class="tag-container">
+                            <span class="tag">Python</span>
+                            <span class="tag">Crypto</span>
+                        </div>
+                        <a href="#" class="xbox-btn">GitHub ►</a>
+                    </div>
+                    <div class="xbox-card">
+                        <div class="card-icon">🔍</div>
+                        <h3>Analisador Vulner.</h3>
+                        <p>Ferramenta para identificar vulnerabilidades básicas em aplicações web.</p>
+                        <div class="tag-container">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Security</span>
+                        </div>
+                        <a href="#" class="xbox-btn">GitHub ►</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- CIBERSEGURANÇA -->
+        <div id="ciberseguranca" class="page">
+            <div class="dashboard-panel">
+                <h2 class="section-title">Cibersegurança</h2>
+                <div class="topic-icon">🛡️</div>
+                
+                <div class="content-section">
+                    <p>A cibersegurança é fundamental no mundo digital atual. Durante meus estudos, explorei diversos aspectos da segurança da informação, desde conceitos básicos até técnicas avançadas de proteção.</p>
+
+                    <h3>◄ Fundamentos de Segurança ►</h3>
+                    <p>Estudei os pilares da segurança da informação: confidencialidade, integridade e disponibilidade (CIA Triad). Aprendi sobre diferentes tipos de ameaças cibernéticas como malware, phishing, ransomware e ataques DDoS.</p>
+
+                    <h3>◄ Criptografia ►</h3>
+                    <p>Desenvolvi conhecimentos em algoritmos de criptografia simétrica e assimétrica, protocolos de segurança como SSL/TLS, e práticas de hash para proteção de senhas.</p>
+
+                    <h3>◄ Segurança de Redes ►</h3>
+                    <p>Aprendi sobre firewalls, VPNs, sistemas de detecção de intrusão (IDS) e práticas de hardening de sistemas operacionais.</p>
+                </div>
+
+                <div class="grid-container">
+                    <div class="xbox-card">
+                        <div class="card-icon">🔐</div>
+                        <h3>Sistema Cripto</h3>
+                        <p>Implementação de algoritmos de criptografia para proteção de mensagens.</p>
+                        <div class="tag-container">
+                            <span class="tag">Python</span>
+                            <span class="tag">Crypto</span>
+                        </div>
+                        <a href="#" class="xbox-btn">GitHub ►</a>
+                    </div>
+                    <div class="xbox-card">
+                        <div class="card-icon">🔍</div>
+                        <h3>Analisador Vulner.</h3>
+                        <p>Ferramenta para identificar vulnerabilidades básicas em aplicações web.</p>
+                        <div class="tag-container">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Security</span>
+                        </div>
+                        <a href="#" class="xbox-btn">GitHub ►</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BLOCKCHAIN -->
+        <div id="blockchain" class="page">
+            <div class="dashboard-panel">
+                <h2 class="section-title">Blockchain</h2>
+                <div class="topic-icon">⛓️</div>
+                
+                <div class="content-section">
+                    <p>Blockchain é uma tecnologia revolucionária que vai além das criptomoedas. Durante meus estudos, explorei os fundamentos dessa tecnologia e suas aplicações práticas.</p>
+
+                    <h3>◄ Conceitos Fundamentais ►</h3>
+                    <p>Aprendi sobre estruturas de dados distribuídas, consenso descentralizado, mineração, proof of work, proof of stake e a arquitetura de blocos encadeados.</p>
+
+                    <h3>◄ Smart Contracts ►</h3>
+                    <p>Estudei contratos inteligentes e sua implementação em plataformas como Ethereum, explorando casos de uso em finanças descentralizadas (DeFi) e NFTs.</p>
+
+                    <h3>◄ Aplicações Práticas ►</h3>
+                    <p>Investiguei aplicações de blockchain além das criptomoedas: supply chain, votação eletrônica, registros médicos, identidade digital e rastreabilidade de produtos.</p>
+                </div>
+
+                <div class="grid-container">
+                    <div class="xbox-card">
+                        <div class="card-icon">🔗</div>
+                        <h3>Blockchain Simples</h3>
+                        <p>Implementação educacional de uma blockchain básica em Python.</p>
+                        <div class="tag-container">
+                            <span class="tag">Python</span>
+                            <span class="tag">Blockchain</span>
+                        </div>
+                        <a href="#" class="xbox-btn">GitHub ►</a>
+                    </div>
+                    <div class="xbox-card">
+                        <div class="card-icon">💎</div>
+                        <h3>Rastreabilidade</h3>
+                        <p>Protótipo de sistema para rastrear produtos usando blockchain.</p>
+                        <div class="tag-container">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Web3</span>
+                        </div>
+                        <a href="#" class="xbox-btn">GitHub ►</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- AUTOMAÇÃO E ROBÓTICA -->
+        <div id="automacao" class="page">
+            <div class="dashboard-panel">
+                <h2 class="section-title">Automação & Robótica</h2>
+                <div class="topic-icon">🤖</div>
+                
+                <div class="content-section">
+                    <p>A automação e robótica representam o futuro da indústria e da sociedade. Meus estudos nessa área incluíram tanto aspectos teóricos quanto práticos.</p>
+
+                    <h3>◄ Fundamentos de Automação ►</h3>
+                    <p>Aprendi sobre sistemas de controle, sensores, atuadores, controladores lógicos programáveis (CLPs) e a integração de sistemas automatizados.</p>
+
+                    <h3>◄ Robótica Educacional ►</h3>
+                    <p>Desenvolvi projetos com Arduino e Raspberry Pi, explorando programação de microcontroladores, controle de motores, leitura de sensores e criação de sistemas embarcados.</p>
+
+                    <h3>◄ IA e Robótica ►</h3>
+                    <p>Estudei a integração de IA com robótica, incluindo visão computacional, navegação autônoma e aprendizado de máquina aplicado a sistemas robóticos.</p>
+                </div>
+
+                <div class="grid-container">
+                    <div class="xbox-card">
+                        <div class="card-icon">🚗</div>
+                        <h3>Robô Seguidor</h3>
+                        <p>Robô autônomo programado para seguir linhas usando sensores infravermelhos.</p>
+                        <div class="tag-container">
+                            <span class="tag">Arduino</span>
+                            <span class="tag">C++</span>
+                        </div>
+                        <a href="#" class="xbox-btn">GitHub ►</a>
+                    </div>
+                    <div class="xbox-card">
+                        <div class="card-icon">🏠</div>
+                        <h3>Casa Inteligente</h3>
+                        <p>Protótipo de automação residencial com controle via smartphone.</p>
+                        <div class="tag-container">
+                            <span class="tag">IoT</span>
+                            <span class="tag">ESP32</span>
+                        </div>
+                        <a href="#" class="xbox-btn">GitHub ►</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- EDGE COMPUTING -->
+        <div id="edge" class="page">
+            <div class="dashboard-panel">
+                <h2 class="section-title">Edge Computing</h2>
+                <div class="topic-icon">📡</div>
+                
+                <div class="content-section">
+                    <p>Edge Computing é um paradigma que traz o processamento de dados para mais perto da fonte, reduzindo latência e melhorando a eficiência. Explorei essa tecnologia emergente e suas aplicações.</p>
+
+                    <h3>◄ Conceitos de Edge ►</h3>
+                    <p>Estudei a arquitetura distribuída, diferenças entre cloud computing e edge computing, fog computing, e como o processamento na borda reduz a latência e o tráfego de rede.</p>
+
+                    <h3>◄ IoT e Edge ►</h3>
+                    <p>Aprendi como dispositivos IoT se beneficiam do edge computing, processando dados localmente antes de enviá-los para a nuvem, otimizando recursos e melhorando a resposta em tempo real.</p>
+
+                    <h3>◄ Aplicações Práticas ►</h3>
+                    <p>Explorei casos de uso em cidades inteligentes, veículos autônomos, manufatura inteligente, saúde conectada e sistemas de vigilância com processamento de vídeo em tempo real.</p>
+                </div>
+
+                <div class="grid-container">
+                    <div class="xbox-card">
+                        <div class="card-icon">📊</div>
+                        <h3>Processamento Local</h3>
+                        <p>Sistema que processa dados de sensores localmente antes de enviar para nuvem.</p>
+                        <div class="tag-container">
+                            <span class="tag">Python</span>
+                            <span class="tag">Edge</span>
+                        </div>
+                        <a href="#" class="xbox-btn">GitHub ►</a>
+                    </div>
+                    <div class="xbox-card">
+                        <div class="card-icon">🎥</div>
+                        <h3>Detecção Edge</h3>
+                        <p>Sistema de visão computacional rodando em dispositivos edge.</p>
+                        <div class="tag-container">
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">Raspberry</span>
+                        </div>
+                        <a href="#" class="xbox-btn">GitHub ►</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- HABILIDADES -->
+        <div id="habilidades" class="page">
+            <div class="dashboard-panel">
+                <h2 class="section-title">Habilidades</h2>
+                <div class="grid-container">
+                    <div class="xbox-card">
+                        <h3>💻 Técnicas</h3>
+                        <ul class="skill-list">
+                            <li><strong>HTML5 & CSS3</strong> - Web responsivo</li>
+                            <li><strong>JavaScript</strong> - Front & Back-end</li>
+                            <li><strong>Python</strong> - Automação e dados</li>
+                            <li><strong>Git & GitHub</strong> - Versionamento</li>
+                            <li><strong>SQL</strong> - Banco de dados</li>
+                            <li><strong>React</strong> - Frameworks JS</li>
+                            <li><strong>Node.js</strong> - Back-end</li>
+                            <li><strong>Arduino/RPi</strong> - IoT</li>
+                        </ul>
+                    </div>
+
+                    <div class="xbox-card">
+                        <h3>🔒 Infraestrutura</h3>
+                        <ul class="skill-list">
+                            <li><strong>Cibersegurança</strong> - Princípios</li>
+                            <li><strong>Redes</strong> - TCP/IP</li>
+                            <li><strong>Linux</strong> - Admin sistemas</li>
+                            <li><strong>Criptografia</strong> - Algoritmos</li>
+                            <li><strong>Virtualização</strong> - VMs</li>
+                        </ul>
+                    </div>
+
+                    <div class="xbox-card">
+                        <h3>🎯 Soft Skills</h3>
+                        <ul class="skill-list">
+                            <li><strong>Trabalho em Equipe</strong> - Colaboração</li>
+                            <li><strong>Comunicação</strong> - Clareza</li>
+                            <li><strong>Problem Solving</strong> - Analítico</li>
+                            <li><strong>Autogerenciamento</strong> - Organização</li>
+                            <li><strong>Criatividade</strong> - Inovação</li>
+                            <li><strong>Aprendizado</strong> - Adaptação</li>
+                            <li><strong>Pensamento Crítico</strong> - Análise</li>
+                        </ul>
+                    </div>
+
+                    <div class="xbox-card">
+                        <h3>🚀 Emergentes</h3>
+                        <ul class="skill-list">
+                            <li><strong>Blockchain</strong> - Conceitos</li>
+                            <li><strong>IoT</strong> - Internet das Coisas</li>
+                            <li><strong>Edge Computing</strong> - Distribuído</li>
+                            <li><strong>Machine Learning</strong> - IA</li>
+                            <li><strong>Cloud</strong> - Serviços nuvem</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROJETOS -->
+        <div id="projetos" class="page">
+            <div class="dashboard-panel">
+                <h2 class="section-title">Projetos T.I.</h2>
+                <p style="text-align: center; margin-bottom: 2rem; color: var(--xbox-highlight); text-transform: uppercase; font-weight: 700;">
+                    ► Principais projetos desenvolvidos durante o Ensino Médio ◄
+                </p>
+
+                <div class="grid-container">
+                    <div class="xbox-card">
+                        <div class="card-icon">🌐</div>
+                        <h3>Site Responsivo</h3>
+                        <p>Website completo com design responsivo, otimizado para diferentes dispositivos. Inclui animações CSS e interatividade JavaScript.</p>
+                        <div class="tag-container">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JS</span>
+                        </div>
+                        <a href="https://github.com/444dex" class="xbox-btn">GitHub ►</a>
+                    </div>
+
+                    <div class="xbox-card">
+                        <div class="card-icon">📱</div>
+                        <h3>App Tarefas</h3>
+                        <p>Aplicação web para organização pessoal com CRUD completo e interface intuitiva.</p>
+                        <div class="tag-container">
+                            <span class="tag">React</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="https://github.com/444dex" class="xbox-btn">GitHub ►</a>
+                    </div>
+
+                    <div class="xbox-card">
+                        <div class="card-icon">🎮</div>
+                        <h3>Jogo Educativo</h3>
+                        <p>Jogo interativo desenvolvido para ensinar conceitos de programação de forma lúdica.</p>
+                        <div class="tag-container">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Canvas</span>
+                        </div>
+                        <a href="https://github.com/444dex" class="xbox-btn">GitHub ►</a>
+                    </div>
+
+                    <div class="xbox-card">
+                        <div class="card-icon">🗃️</div>
+                        <h3>Sistema Cadastro</h3>
+                        <p>Sistema completo com banco de dados MySQL, autenticação e painel administrativo.</p>
+                        <div class="tag-container">
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                        <a href="https://github.com/444dex" class="xbox-btn">GitHub ►</a>
+                    </div>
+
+                    <div class="xbox-card">
+                        <div class="card-icon">🤖</div>
+                        <h3>Chatbot IA</h3>
+                        <p>Bot conversacional inteligente usando processamento de linguagem natural.</p>
+                        <div class="tag-container">
+                            <span class="tag">Python</span>
+                            <span class="tag">NLP</span>
+                        </div>
+                        <a href="https://github.com/444dex" class="xbox-btn">GitHub ►</a>
+                    </div>
+
+                    <div class="xbox-card">
+                        <div class="card-icon">📈</div>
+                        <h3>Dashboard Analytics</h3>
+                        <p>Painel interativo para visualização de dados com gráficos dinâmicos.</p>
+                        <div class="tag-container">
+                            <span class="tag">Python</span>
+                            <span class="tag">Chart.js</span>
+                        </div>
+                        <a href="https://github.com/444dex" class="xbox-btn">GitHub ►</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTATO -->
+        <div id="contato" class="page">
+    <div class="dashboard-panel">
+        <h2 class="section-title">Contato</h2>
+        <p style="text-align: center; margin-bottom: 2rem; color: var(--xbox-highlight); text-transform: uppercase; font-weight: 700;">
+            ► Envie uma mensagem ◄
+        </p>
+
+        <!-- Status do Banco -->
+        <div id="dbStatus" style="display: none;"></div>
+
+        <!-- Mensagens -->
+        <div id="formMessage" style="display: none;"></div>
+
+        <!-- Formulário -->
+        <form id="contactForm" style="max-width: 600px; margin: 0 auto;">
+            <div style="margin-bottom: 1.5rem;">
+                <label for="nome" style="display: block; margin-bottom: 0.5rem; color: #9aca3c; font-weight: 600;">Nome Completo *</label>
+                <input type="text" id="nome" name="nome" required placeholder="Digite seu nome" 
+                       style="width: 100%; padding: 0.8rem; background: rgba(255,255,255,0.05); border: 2px solid rgba(154,202,60,0.3); border-radius: 8px; color: #fff; font-size: 1rem;">
+                <span id="nomeError" style="display: none; color: #ff4444; font-size: 0.85rem; margin-top: 0.3rem;"></span>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+                <label for="email" style="display: block; margin-bottom: 0.5rem; color: #9aca3c; font-weight: 600;">E-mail *</label>
+                <input type="email" id="email" name="email" required placeholder="seu@email.com"
+                       style="width: 100%; padding: 0.8rem; background: rgba(255,255,255,0.05); border: 2px solid rgba(154,202,60,0.3); border-radius: 8px; color: #fff; font-size: 1rem;">
+                <span id="emailError" style="display: none; color: #ff4444; font-size: 0.85rem; margin-top: 0.3rem;"></span>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+                <label for="assunto" style="display: block; margin-bottom: 0.5rem; color: #9aca3c; font-weight: 600;">Assunto *</label>
+                <input type="text" id="assunto" name="assunto" required placeholder="Motivo do contato"
+                       style="width: 100%; padding: 0.8rem; background: rgba(255,255,255,0.05); border: 2px solid rgba(154,202,60,0.3); border-radius: 8px; color: #fff; font-size: 1rem;">
+                <span id="assuntoError" style="display: none; color: #ff4444; font-size: 0.85rem; margin-top: 0.3rem;"></span>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+                <label for="mensagem" style="display: block; margin-bottom: 0.5rem; color: #9aca3c; font-weight: 600;">Mensagem *</label>
+                <textarea id="mensagem" name="mensagem" rows="6" required placeholder="Digite sua mensagem..."
+                          style="width: 100%; padding: 0.8rem; background: rgba(255,255,255,0.05); border: 2px solid rgba(154,202,60,0.3); border-radius: 8px; color: #fff; font-size: 1rem; resize: vertical; font-family: inherit;"></textarea>
+                <span id="mensagemError" style="display: none; color: #ff4444; font-size: 0.85rem; margin-top: 0.3rem;"></span>
+            </div>
+
+            <button type="submit" id="submitBtn" class="xbox-btn" 
+                    style="width: 100%; font-size: 1.1rem; padding: 1rem; background: #9aca3c; color: #000; border: none; border-radius: 8px; cursor: pointer; font-weight: 700; transition: all 0.3s;">
+                ► Enviar Mensagem ◄
+            </button>
+        </form>
+    </div>
+</div>
+    </div>
+
+
+    <script>
+console.log('🚀 Script carregado!');
+
+// Esperar o DOM carregar completamente
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('✅ DOM carregado!');
+    
+    // Verificar se todos os elementos existem
+    const form = document.getElementById('contactForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const formMessage = document.getElementById('formMessage');
+    
+    console.log('Formulário:', form);
+    console.log('Botão:', submitBtn);
+    console.log('Mensagem:', formMessage);
+    
+    if (!form) {
+        console.error('❌ Formulário não encontrado!');
+        alert('ERRO: Formulário não encontrado!');
+        return;
+    }
+    
+    if (!submitBtn) {
+        console.error('❌ Botão não encontrado!');
+        alert('ERRO: Botão de enviar não encontrado!');
+        return;
+    }
+
+    // Função para mostrar mensagem
+    function showMessage(type, message) {
+        console.log('📢 Mostrando mensagem:', type, message);
+        
+        const messageDiv = document.getElementById('formMessage');
+        messageDiv.style.display = 'block';
+        messageDiv.style.padding = '1rem';
+        messageDiv.style.borderRadius = '8px';
+        messageDiv.style.textAlign = 'center';
+        messageDiv.style.marginTop = '1rem';
+        messageDiv.style.fontWeight = '600';
+        messageDiv.textContent = message;
+        
+        if (type === 'success') {
+            messageDiv.style.background = 'rgba(156, 202, 60, 0.2)';
+            messageDiv.style.border = '2px solid #9aca3c';
+            messageDiv.style.color = '#9aca3c';
+        } else if (type === 'error') {
+            messageDiv.style.background = 'rgba(255, 68, 68, 0.2)';
+            messageDiv.style.border = '2px solid #ff4444';
+            messageDiv.style.color = '#ff4444';
+        } else if (type === 'loading') {
+            messageDiv.style.background = 'rgba(255, 255, 255, 0.1)';
+            messageDiv.style.border = '2px solid #ffffff';
+            messageDiv.style.color = '#ffffff';
+        }
+        
+        messageDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        
+        setTimeout(() => {
+            messageDiv.style.display = 'none';
+        }, 5000);
+    }
+
+    // Função para validar email
+    function isValidEmail(email) {
+        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return re.test(email);
+    }
+
+    // Verificar conexão com banco
+    async function checkDatabaseConnection() {
+        console.log('🔍 Verificando banco...');
+        
+        const statusDiv = document.getElementById('dbStatus');
+        
+        try {
+            const response = await fetch('check_db.php');
+            const result = await response.json();
+            console.log('📊 Resposta do banco:', result);
+            
+            statusDiv.style.display = 'block';
+            statusDiv.style.position = 'fixed';
+            statusDiv.style.top = '100px';
+            statusDiv.style.right = '20px';
+            statusDiv.style.padding = '0.8rem 1.5rem';
+            statusDiv.style.borderRadius = '8px';
+            statusDiv.style.fontWeight = '600';
+            statusDiv.style.zIndex = '10000';
+            
+            if (result.success) {
+                statusDiv.textContent = '✓ Banco conectado (' + result.registros + ' contatos)';
+                statusDiv.style.background = 'rgba(156, 202, 60, 0.95)';
+                statusDiv.style.color = '#000';
+            } else {
+                statusDiv.textContent = '✗ Banco offline';
+                statusDiv.style.background = 'rgba(255, 68, 68, 0.95)';
+                statusDiv.style.color = '#fff';
+            }
+            
+            setTimeout(() => {
+                statusDiv.style.display = 'none';
+            }, 3000);
+            
+        } catch (error) {
+            console.error('❌ Erro ao verificar banco:', error);
+        }
+    }
+
+    // Verificar banco ao carregar
+    checkDatabaseConnection();
+
+    // Handler do formulário
+    form.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    console.log('📤 Formulário enviado!');
+
+    // ===== DEBUG - REMOVA DEPOIS =====
+    console.log('🔍 DEBUG - Elementos encontrados:');
+    console.log('Campo nome:', document.getElementById('nome'));
+    console.log('Campo email:', document.getElementById('email'));
+    console.log('Campo assunto:', document.getElementById('assunto'));
+    console.log('Campo mensagem:', document.getElementById('mensagem'));
+    
+    console.log('🔍 DEBUG - Valores DIRETO do DOM:');
+    const nomeElement = document.getElementById('nome');
+    const emailElement = document.getElementById('email');
+    const assuntoElement = document.getElementById('assunto');
+    const mensagemElement = document.getElementById('mensagem');
+    
+    console.log('Nome element.value:', nomeElement ? nomeElement.value : 'ELEMENTO NÃO ENCONTRADO');
+    console.log('Email element.value:', emailElement ? emailElement.value : 'ELEMENTO NÃO ENCONTRADO');
+    console.log('Assunto element.value:', assuntoElement ? assuntoElement.value : 'ELEMENTO NÃO ENCONTRADO');
+    console.log('Mensagem element.value:', mensagemElement ? mensagemElement.value : 'ELEMENTO NÃO ENCONTRADO');
+    // ===== FIM DEBUG =====
+
+    // Limpa TODAS as mensagens de erro anteriores
+    document.querySelectorAll('[id$="Error"]').forEach(el => {
+        el.style.display = 'none';
+        el.textContent = '';
+    });
+    
+    // Esconde a mensagem geral
+    document.getElementById('formMessage').style.display = 'none';
+
+    // Captura dados
+    const nome = document.getElementById('nome').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const assunto = document.getElementById('assunto').value.trim();
+    const mensagem = document.getElementById('mensagem').value.trim();
+
+    console.log('📊 Dados capturados após trim:');
+    console.log('nome:', `"${nome}"`, 'length:', nome.length);
+    console.log('email:', `"${email}"`, 'length:', email.length);
+    console.log('assunto:', `"${assunto}"`, 'length:', assunto.length);
+    console.log('mensagem:', `"${mensagem}"`, 'length:', mensagem.length);
+
+    // Array para armazenar erros
+    let erros = [];
+    let hasError = false;
+
+    // Validação do Nome
+    if (nome.length === 0) {
+        document.getElementById('nomeError').textContent = 'Nome é obrigatório';
+        document.getElementById('nomeError').style.display = 'block';
+        erros.push('Nome é obrigatório');
+        hasError = true;
+        console.log('❌ Erro: Nome vazio');
+    } else if (nome.length < 3) {
+        document.getElementById('nomeError').textContent = 'Nome deve ter pelo menos 3 caracteres (tem ' + nome.length + ')';
+        document.getElementById('nomeError').style.display = 'block';
+        erros.push('Nome deve ter pelo menos 3 caracteres');
+        hasError = true;
+        console.log('❌ Erro: Nome muito curto:', nome.length);
+    } else {
+        console.log('✅ Nome válido:', nome.length, 'caracteres');
+    }
+
+    // Validação do Email
+    if (email.length === 0) {
+        document.getElementById('emailError').textContent = 'E-mail é obrigatório';
+        document.getElementById('emailError').style.display = 'block';
+        erros.push('E-mail é obrigatório');
+        hasError = true;
+        console.log('❌ Erro: Email vazio');
+    } else if (!isValidEmail(email)) {
+        document.getElementById('emailError').textContent = 'E-mail inválido';
+        document.getElementById('emailError').style.display = 'block';
+        erros.push('E-mail inválido');
+        hasError = true;
+        console.log('❌ Erro: Email inválido:', email);
+    } else {
+        console.log('✅ Email válido');
+    }
+
+    // Validação do Assunto
+    if (assunto.length === 0) {
+        document.getElementById('assuntoError').textContent = 'Assunto é obrigatório';
+        document.getElementById('assuntoError').style.display = 'block';
+        erros.push('Assunto é obrigatório');
+        hasError = true;
+        console.log('❌ Erro: Assunto vazio');
+    } else if (assunto.length < 3) {
+        document.getElementById('assuntoError').textContent = 'Assunto deve ter pelo menos 3 caracteres (tem ' + assunto.length + ')';
+        document.getElementById('assuntoError').style.display = 'block';
+        erros.push('Assunto deve ter pelo menos 3 caracteres');
+        hasError = true;
+        console.log('❌ Erro: Assunto muito curto:', assunto.length);
+    } else {
+        console.log('✅ Assunto válido:', assunto.length, 'caracteres');
+    }
+
+    // Validação da Mensagem
+    if (mensagem.length === 0) {
+        document.getElementById('mensagemError').textContent = 'Mensagem é obrigatória';
+        document.getElementById('mensagemError').style.display = 'block';
+        erros.push('Mensagem é obrigatória');
+        hasError = true;
+        console.log('❌ Erro: Mensagem vazia');
+    } else if (mensagem.length < 10) {
+        document.getElementById('mensagemError').textContent = 'Mensagem deve ter pelo menos 10 caracteres (tem ' + mensagem.length + ')';
+        document.getElementById('mensagemError').style.display = 'block';
+        erros.push('Mensagem deve ter pelo menos 10 caracteres');
+        hasError = true;
+        console.log('❌ Erro: Mensagem muito curta:', mensagem.length);
+    } else {
+        console.log('✅ Mensagem válida:', mensagem.length, 'caracteres');
+    }
+
+    // Se houver erros, mostrar mensagem geral e parar
+    if (hasError) {
+        console.log('❌ Erros encontrados:', erros);
+        showMessage('error', '❌ Erros de validação: ' + erros.join('. '));
+        return;
+    }
+
+    // Se chegou aqui, os dados estão válidos!
+    console.log('✅ TODOS OS DADOS VÁLIDOS! Enviando...');
+
+    const formData = {
+        name: nome,
+        email: email,
+        subject: assunto,
+        message: mensagem
+    };
+
+    console.log('📦 Dados que serão enviados:', formData);
+
+    // Desabilita botão
+    const originalText = submitBtn.textContent;
+    submitBtn.disabled = true;
+    submitBtn.textContent = '⏳ Enviando...';
+    submitBtn.style.opacity = '0.6';
+    submitBtn.style.cursor = 'not-allowed';
+
+    showMessage('loading', '📤 Enviando sua mensagem...');
+
+    try {
+        console.log('🌐 Enviando para save_contact.php...');
+        
+        const response = await fetch('save_contact.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        });
+
+        console.log('📡 Status da resposta:', response.status);
+        console.log('📡 Response OK:', response.ok);
+
+        const result = await response.json();
+        console.log('📊 Resultado completo:', result);
+
+        if (result.success) {
+            showMessage('success', `✅ ${result.message} Obrigado, ${nome}!`);
+            form.reset();
+            console.log('✅ Mensagem enviada com sucesso! ID:', result.id);
+        } else {
+            showMessage('error', `❌ ${result.message}`);
+            console.error('❌ Erro do servidor:', result.message);
+        }
+
+    } catch (error) {
+        console.error('❌ Erro na requisição:', error);
+        showMessage('error', '❌ Erro de conexão! Verifique se o Apache está rodando no XAMPP.');
+    } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = originalText;
+        submitBtn.style.opacity = '1';
+        submitBtn.style.cursor = 'pointer';
+    }
+});
+});
+
+// Navegação entre páginas
+function showPage(pageId) {
+    console.log('📄 Navegando para:', pageId);
+    
+    const pages = document.querySelectorAll('.page');
+    const buttons = document.querySelectorAll('.nav-btn');
+    
+    pages.forEach(page => page.classList.remove('active'));
+    buttons.forEach(btn => btn.classList.remove('active'));
+    
+    const targetPage = document.getElementById(pageId);
+    if (targetPage) {
+        targetPage.classList.add('active');
+        window.scrollTo(0, 0);
+    }
+
+    if (event && event.target) {
+        event.target.classList.add('active');
+    }
+
+    if (window.innerWidth <= 768) {
+        document.getElementById('navMenu').classList.remove('active');
+    }
+}
+
+// Toggle menu mobile
+function toggleMenu() {
+    const navMenu = document.getElementById('navMenu');
+    navMenu.classList.toggle('active');
+}
+
+// Fecha menu ao redimensionar
+window.addEventListener('resize', function() {
+    if (window.innerWidth > 768) {
+        document.getElementById('navMenu').classList.remove('active');
+    }
+});
+</script>
+</body>
+
+
+        <!-- MATEMÁTICA -->
+        <div id="matematica" class="page">
+            <div class="dashboard-panel">
+                <h2 class="section-title">Matemática</h2>
+                <div class="topic-icon">🔢</div>
+                
+                <p style="text-align: center; margin-bottom: 2rem; color: var(--xbox-highlight); text-transform: uppercase; font-weight: 700;">
+                    ► Projetos e Trabalhos Desenvolvidos ◄
+                </p>
+
+                <div class="grid-container">
+                    <div class="xbox-card">
+                        <div class="card-icon">📄</div>
+                        <h3>Primeiro ano - Matemática</h3>
+                        <div class="project-preview">
+                            <img src="imagens/matematica1.png" alt="Preview Projeto 1" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="tag-container">
+                            <span class="tag">Matemática</span>
+                            <span class="tag">2024</span>
+                        </div>
+                        <a href="#" class="xbox-btn" style="width: 100%; margin-top: 1rem;">⬇ Baixar Projeto</a>
+                    </div>
+
+                    <div class="xbox-card">
+                        <div class="card-icon">📄</div>
+                        <h3>Segundo ano - Matemática</h3>
+                        <div class="project-preview">
+                            <img src="imagens/matematica2.png" alt="Preview Projeto 1" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="tag-container">
+                            <span class="tag">Matemática</span>
+                            <span class="tag">2024</span>
+                        </div>
+                        <a href="#" class="xbox-btn" style="width: 100%; margin-top: 1rem;">⬇ Baixar Projeto</a>
+                    </div>
+
+                    <div class="xbox-card">
+                        <div class="card-icon">📄</div>
+                        <h3>terceiro ano - Matemática</h3>
+                        <div class="project-preview">
+                            <img src="imagens/matematica3.png" alt="Preview Projeto 1" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="tag-container">
+                            <span class="tag">Matemática</span>
+                            <span class="tag">2024</span>
+                        </div>
+                        <a href="#" class="xbox-btn" style="width: 100%; margin-top: 1rem;">⬇ Baixar Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CIÊNCIAS HUMANAS -->
+        <div id="humanas" class="page">
+            <div class="dashboard-panel">
+                <h2 class="section-title">Ciências Humanas</h2>
+                <div class="topic-icon">🌍</div>
+                
+                <p style="text-align: center; margin-bottom: 2rem; color: var(--xbox-highlight); text-transform: uppercase; font-weight: 700;">
+                    ► Projetos e Trabalhos Desenvolvidos ◄
+                </p>
+
+                <div class="grid-container">
+                    <div class="xbox-card">
+                        <div class="card-icon">📄</div>
+                        <h3>Projeto 1 - Humanas</h3>
+                        <div class="project-preview">
+                            <img src="imagens/humanas1.png" alt="Preview Projeto 1" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="tag-container">
+                            <span class="tag">Ciências Humanas</span>
+                            <span class="tag">2024</span>
+                        </div>
+                        <a href="#" class="xbox-btn" style="width: 100%; margin-top: 1rem;">⬇ Baixar Projeto</a>
+                    </div>
+
+                    <div class="xbox-card">
+                        <div class="card-icon">📄</div>
+                        <h3>Projeto 2 - Humanas</h3>
+                        <div class="project-preview">
+                            <img src="imagens/humanas2.png" alt="Preview Projeto 1" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="tag-container">
+                            <span class="tag">Ciências Humanas</span>
+                            <span class="tag">2024</span>
+                        </div>
+                        <a href="#" class="xbox-btn" style="width: 100%; margin-top: 1rem;">⬇ Baixar Projeto</a>
+                    </div>
+
+                    <div class="xbox-card">
+                        <div class="card-icon">📄</div>
+                        <h3>Projeto 3 - Humanas</h3>
+                        <div class="project-preview">
+                            <img src="imagens/humanas3.png" alt="Preview Projeto 1" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="tag-container">
+                            <span class="tag">Ciências Humanas</span>
+                            <span class="tag">2024</span>
+                        </div>
+                        <a href="#" class="xbox-btn" style="width: 100%; margin-top: 1rem;">⬇ Baixar Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CIÊNCIAS DA NATUREZA -->
+        <div id="natureza" class="page">
+            <div class="dashboard-panel">
+                <h2 class="section-title">Ciências da Natureza</h2>
+                <div class="topic-icon">🔬</div>
+                
+                <p style="text-align: center; margin-bottom: 2rem; color: var(--xbox-highlight); text-transform: uppercase; font-weight: 700;">
+                    ► Projetos e Trabalhos Desenvolvidos ◄
+                </p>
+
+                <div class="grid-container">
+                    <div class="xbox-card">
+                        <div class="card-icon">📄</div>
+                        <h3>Projeto 1 - Natureza</h3>
+                        <div class="project-preview">
+                            <img src="https://via.placeholder.com/400x250/1a1d18/9aca3c?text=Matematica+1" alt="Preview Projeto 1" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="tag-container">
+                            <span class="tag">Ciências da Natureza</span>
+                            <span class="tag">2024</span>
+                        </div>
+                        <a href="#" class="xbox-btn" style="width: 100%; margin-top: 1rem;">⬇ Baixar Projeto</a>
+                    </div>
+
+                    <div class="xbox-card">
+                        <div class="card-icon">📄</div>
+                        <h3>Projeto 2 - Natureza</h3>
+                        <div class="project-preview">
+                            <img src="https://via.placeholder.com/400x250/1a1d18/9aca3c?text=Matematica+1" alt="Preview Projeto 1" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="tag-container">
+                            <span class="tag">Ciências da Natureza</span>
+                            <span class="tag">2024</span>
+                        </div>
+                        <a href="#" class="xbox-btn" style="width: 100%; margin-top: 1rem;">⬇ Baixar Projeto</a>
+                    </div>
+
+                    <div class="xbox-card">
+                        <div class="card-icon">📄</div>
+                        <h3>Projeto 3 - Natureza</h3>
+                        <div class="project-preview">
+                            <img src="https://via.placeholder.com/400x250/1a1d18/9aca3c?text=Matematica+1" alt="Preview Projeto 1" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="tag-container">
+                            <span class="tag">Ciências da Natureza</span>
+                            <span class="tag">2024</span>
+                        </div>
+                        <a href="#" class="xbox-btn" style="width: 100%; margin-top: 1rem;">⬇ Baixar Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>

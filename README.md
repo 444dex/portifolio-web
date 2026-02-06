@@ -19,9 +19,9 @@ Demonstrar conhecimentos adquiridos em:
 - Design responsivo básico
 
 ### Avisos Importantes
-- 📌 **Não profissional**: Este site **NÃO** representa um portfólio profissional real
-- 📌 **Fins avaliativos**: Foi desenvolvido exclusivamente para avaliação escolar
-- 📌 **Aprendizado**: O foco está na técnica de desenvolvimento, não no conteúdo
+- **Não profissional**: Este site **NÃO** representa um portfólio profissional real
+- **Fins avaliativos**: Foi desenvolvido exclusivamente para avaliação escolar
+- **Aprendizado**: O foco está na técnica de desenvolvimento, não no conteúdo
 
 ---
 
@@ -240,3 +240,4 @@ Este projeto é de uso educacional. O código pode ser utilizado como referênci
   <sub>O conteúdo deste site é meramente demonstrativo e não reflete um portfólio profissional real</sub>
 
 </p>
+
